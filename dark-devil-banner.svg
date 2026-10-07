@@ -1,0 +1,79 @@
+<svg width="1400" height="360" viewBox="0 0 1400 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070B14"/>
+      <stop offset="0.55" stop-color="#0B1224"/>
+      <stop offset="1" stop-color="#081C1C"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="0.5" stop-color="#00F5A0"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1110 80) rotate(90) scale(230 300)">
+      <stop stop-color="#00F5A0" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#00F5A0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(290 300) rotate(90) scale(250 300)">
+      <stop stop-color="#00D9FF" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#00D9FF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" stroke="#7C8AA5" stroke-opacity="0.09" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1400" height="360" rx="28" fill="url(#grid)"/>
+  <rect width="1400" height="360" rx="28" fill="url(#glow1)"/>
+  <rect width="1400" height="360" rx="28" fill="url(#glow2)"/>
+
+  <path d="M0 318C210 260 340 338 535 292C715 250 840 291 1030 253C1170 225 1275 236 1400 190"
+        stroke="url(#accent)" stroke-width="2" stroke-opacity="0.35"/>
+
+  <!-- circuit traces -->
+  <g stroke="url(#accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.72">
+    <path d="M1020 62H1150V116H1264"/>
+    <path d="M1082 156H1184V208H1350"/>
+    <path d="M930 278H1030V322H1180"/>
+    <path d="M102 92H218V50H325"/>
+    <path d="M52 240H158V286H280"/>
+  </g>
+
+  <g fill="#00F5A0" filter="url(#softGlow)">
+    <circle cx="1150" cy="62" r="4"/>
+    <circle cx="1264" cy="116" r="4"/>
+    <circle cx="1184" cy="156" r="4"/>
+    <circle cx="1350" cy="208" r="4"/>
+    <circle cx="1030" cy="278" r="4"/>
+    <circle cx="1180" cy="322" r="4"/>
+    <circle cx="218" cy="92" r="4"/>
+    <circle cx="325" cy="50" r="4"/>
+    <circle cx="158" cy="240" r="4"/>
+    <circle cx="280" cy="286" r="4"/>
+  </g>
+
+  <!-- terminal window -->
+  <rect x="970" y="92" width="310" height="178" rx="18" fill="#050812" fill-opacity="0.82" stroke="#24314A"/>
+  <circle cx="994" cy="114" r="5" fill="#7C8AA5"/>
+  <circle cx="1012" cy="114" r="5" fill="#7C8AA5"/>
+  <circle cx="1030" cy="114" r="5" fill="#7C8AA5"/>
+  <path d="M1000 154L1016 166L1000 178" stroke="#00F5A0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1028 180H1096" stroke="#00D9FF" stroke-width="4" stroke-linecap="round"/>
+  <text x="1000" y="216" fill="#7C8AA5" font-family="monospace" font-size="17">$ analyze firmware.bin</text>
+  <text x="1000" y="242" fill="#00F5A0" font-family="monospace" font-size="17">[+] reversing → securing</text>
+
+  <!-- main text -->
+  <text x="92" y="136" fill="#8BE9FD" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="4">CYBERSECURITY • IOT • RE • AI</text>
+  <text x="88" y="205" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800" letter-spacing="5">DARK DEVIL</text>
+  <rect x="92" y="230" width="430" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="92" y="270" fill="#B9C4D7" font-family="Arial, Helvetica, sans-serif" font-size="23">Researching systems. Building tools. Breaking assumptions.</text>
+  <text x="92" y="310" fill="#7C8AA5" font-family="monospace" font-size="16">$ whoami  →  security researcher</text>
+</svg>
