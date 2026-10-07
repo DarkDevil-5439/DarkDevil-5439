@@ -1,157 +1,220 @@
 <div align="center">
-<!-- ─────────────────────────────── HERO ─────────────────────────────── -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,45:101A4D,100:00F5A0&height=230&section=header&text=DARK%20DEVIL&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Cybersecurity%20%7C%20IoT%20Security%20%7C%20Reverse%20Engineering&descAlignY=58&descSize=18" width="100%"/>
-<h1>Dark Devil</h1>
-<p>
-  <strong>Cybersecurity Researcher • IoT Security • Reverse Engineering • CTFs</strong>
-</p>
+
+<img src="./dark-devil-banner.svg" alt="Dark Devil" width="100%"/>
+
 <p>
   <a href="https://github.com/DarkDevil-5439">
-    <img src="https://img.shields.io/github/followers/DarkDevil-5439?label=Followers&style=for-the-badge&logo=github&color=00F5A0" />
+    <img src="https://img.shields.io/badge/GitHub-DarkDevil--5439-0D1117?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
-  <a href="https://github.com/DarkDevil-5439?tab=repositories">
-    <img src="https://img.shields.io/github/stars/DarkDevil-5439?affiliations=OWNER&style=for-the-badge&logo=github&color=00D9FF" />
+  <a href="https://t.me/talk_with_hackers">
+    <img src="https://img.shields.io/badge/Telegram-Talk%20With%20Hackers-0D1117?style=for-the-badge&logo=telegram&logoColor=26A5E4"/>
   </a>
-  <img src="https://komarev.com/ghpvc/?username=DarkDevil-5439&style=for-the-badge&color=7C3AED" />
+  <img src="https://komarev.com/ghpvc/?username=DarkDevil-5439&style=for-the-badge&color=00F5A0"/>
 </p>
-<p>
-  <em>“Break things. Understand why. Build them stronger.”</em>
-</p>
+
+<p><strong>Cybersecurity Researcher · IoT & Firmware Security · Reverse Engineering · AI/ML</strong></p>
+
+<em>“Break things. Understand why. Build them stronger.”</em>
+
 </div>
+
 ---
-🧑‍💻 About Me
+
+## 👋 About Me
+
+I'm **Dark Devil**, a security-focused developer and researcher who enjoys working where **software, hardware, networks, and AI** meet.
+
+My work and learning currently revolve around **IoT security, firmware analysis, reverse engineering, network security, CTFs, computer vision, and security automation**.
+
 ```text
-┌───────────────────────────────────────────────────────────┐
-│  DARK DEVIL                                               │
-├───────────────────────────────────────────────────────────┤
-│  🔐 Cybersecurity & Security Research                      │
-│  📡 IoT / Firmware / Embedded Security                    │
-│  🧩 Reverse Engineering & Binary Analysis                 │
-│  🏴 CTFs, Bug Bounty & Offensive Security                 │
-│  🤖 AI/ML for Security & Computer Vision                  │
-│  🚀 Building tools, experiments and research projects     │
-└───────────────────────────────────────────────────────────┘
+Focus
+├── Cybersecurity & Security Research
+├── IoT / Embedded / Firmware Security
+├── Reverse Engineering & Binary Analysis
+├── CTFs / OSINT / Web Security
+├── AI/ML for Security & Computer Vision
+└── Developer Tooling
 ```
-I enjoy working at the intersection of cybersecurity, software, hardware, and AI.
-My current interests include IoT security, firmware analysis, reverse engineering, network security, computer vision, AI-assisted security tooling, and research.
+
 ---
-🛠️ Tech Stack
-🔐 Security & Research
+
+## ⚙️ Tech Stack
+
+### Security
+
 <p>
-  <img src="https://img.shields.io/badge/Nmap-111827?style=for-the-badge&logo=nmap&logoColor=00F5A0"/>
-  <img src="https://img.shields.io/badge/Wireshark-111827?style=for-the-badge&logo=wireshark&logoColor=1679A7"/>
-  <img src="https://img.shields.io/badge/Burp_Suite-111827?style=for-the-badge&logo=burpsuite&logoColor=FF6633"/>
-  <img src="https://img.shields.io/badge/Nessus-111827?style=for-the-badge&logo=tenable&logoColor=00A9E0"/>
-  <img src="https://img.shields.io/badge/Binwalk-111827?style=for-the-badge&logo=linux&logoColor=FCC624"/>
-  <img src="https://img.shields.io/badge/QEMU-111827?style=for-the-badge&logo=qemu&logoColor=FF6600"/>
-  <img src="https://img.shields.io/badge/Ghidra-111827?style=for-the-badge&logo=gnu&logoColor=FF6600"/>
-  <img src="https://img.shields.io/badge/IDA-111827?style=for-the-badge&logo=hexrays&logoColor=00D9FF"/>
+<img src="https://img.shields.io/badge/Nmap-0D1117?style=flat-square&logo=nmap&logoColor=00F5A0"/>
+<img src="https://img.shields.io/badge/Wireshark-0D1117?style=flat-square&logo=wireshark&logoColor=1679A7"/>
+<img src="https://img.shields.io/badge/Burp%20Suite-0D1117?style=flat-square&logo=burpsuite&logoColor=FF6633"/>
+<img src="https://img.shields.io/badge/Nessus-0D1117?style=flat-square&logo=tenable&logoColor=00A9E0"/>
+<img src="https://img.shields.io/badge/Binwalk-0D1117?style=flat-square&logo=linux&logoColor=FCC624"/>
+<img src="https://img.shields.io/badge/Ghidra-0D1117?style=flat-square&logoColor=FF6600"/>
+<img src="https://img.shields.io/badge/QEMU-0D1117?style=flat-square&logo=qemu&logoColor=FF6600"/>
+<img src="https://img.shields.io/badge/angr-0D1117?style=flat-square&logoColor=00D9FF"/>
 </p>
-💻 Programming
+
+### Languages
+
 <p>
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,js,nodejs,java,bash" />
+<img src="https://skillicons.dev/icons?i=c,cpp,python,js,java,bash" />
 </p>
-🌐 Web / Backend
+
+### Web / Backend
+
 <p>
-  <img src="https://skillicons.dev/icons?i=nextjs,react,django,express,html,css,mongodb,mysql,postgresql" />
+<img src="https://skillicons.dev/icons?i=nextjs,react,django,nodejs,express,html,css" />
 </p>
-☁️ Cloud / DevOps
+
+### Databases / Cloud / Tools
+
 <p>
-  <img src="https://skillicons.dev/icons?i=aws,docker,git,github,linux" />
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,aws,docker,git,github,linux" />
 </p>
+
 ---
-📊 GitHub Analytics
+
+## 📊 GitHub
+
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=DarkDevil-5439&show_icons=true&hide_border=true&rank_icon=github&theme=tokyonight&include_all_commits=true" height="180"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DarkDevil-5439&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" height="180"/>
-</div>
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=DarkDevil-5439&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&theme=tokyonight&title_color=00F5A0&icon_color=00D9FF&text_color=C9D1D9&bg_color=0D1117&custom_title=GitHub%20Stats" width="100%" alt="GitHub Stats"/>
+
+</td>
+<td width="50%" align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DarkDevil-5439&layout=compact&hide_border=true&langs_count=8&theme=tokyonight&title_color=00F5A0&text_color=C9D1D9&bg_color=0D1117&custom_title=Most%20Used%20Languages" width="100%" alt="Most Used Languages"/>
+
+</td>
+</tr>
+</table>
+
 <br/>
-<div align="center">
-<img src="https://streak-stats.demolab.com?user=DarkDevil-5439&theme=tokyonight&hide_border=true" width="70%"/>
+
+<img src="https://streak-stats.demolab.com?user=DarkDevil-5439&theme=tokyonight&hide_border=true&background=0D1117&ring=00F5A0&fire=00D9FF&currStreakLabel=C9D1D9" width="72%" alt="GitHub Streak"/>
+
 </div>
+
 ---
-📈 Contribution Activity
+
+## 📈 Contribution Activity
+
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=DarkDevil-5439&bg_color=0d1117&color=00F5A0&line=00D9FF&point=ffffff&area=true&hide_border=true" width="95%"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=DarkDevil-5439&bg_color=0D1117&color=C9D1D9&line=00F5A0&point=00D9FF&area=true&hide_border=true" width="96%" alt="Contribution Activity"/>
+
 </div>
+
 ---
-🚀 Featured Projects
+
+## 🚀 Featured Work
+
 <table>
 <tr>
-<td width="50%">
-🛰️ Sentinel Gujarat CCTV
-Smart CCTV security platform with GIS camera mapping, live feeds, computer vision and security-focused event monitoring.
-`Next.js` `FastAPI` `PostgreSQL` `PostGIS` `AI/ML`
+<td width="50%" valign="top">
+
+### 🛰️ Sentinel Gujarat CCTV
+
+A security-focused CCTV platform combining **GIS camera mapping, live feeds, computer vision, and event monitoring**.
+
+**Stack:** `Next.js` · `FastAPI` · `PostgreSQL` · `PostGIS` · `AI/ML`
+
 </td>
-<td width="50%">
-🧬 Firmware Security Lab
-Research workflow for firmware extraction, emulation and vulnerability analysis using embedded-security tooling.
-`Binwalk` `Firmadyne` `QEMU` `angr` `Ghidra`
+<td width="50%" valign="top">
+
+### 🧬 Firmware Security Lab
+
+Research workflows for **firmware extraction, filesystem analysis, emulation, and vulnerability research**.
+
+**Stack:** `Binwalk` · `Firmadyne` · `QEMU` · `angr` · `Ghidra`
+
 </td>
 </tr>
+
 <tr>
-<td width="50%">
-🤖 Cybersecurity LLM
-Experiments in building a domain-focused language model trained on cybersecurity material using PyTorch and CUDA.
-`Python` `PyTorch` `CUDA` `LLM`
+<td width="50%" valign="top">
+
+### 🤖 Cybersecurity LLM
+
+Experiments with a **cybersecurity-focused language model** and GPU-accelerated training workflows.
+
+**Stack:** `Python` · `PyTorch` · `CUDA` · `LLM`
+
 </td>
-<td width="50%">
-🧪 Security Research
-Projects and experiments covering network security, web security, OSINT, CTFs, binary analysis and IoT security research.
-`Security` `Research` `CTF` `IoT`
+<td width="50%" valign="top">
+
+### 🔬 Security Research
+
+Hands-on research across **web security, network security, OSINT, binary analysis, CTFs, and IoT security**.
+
+**Focus:** `Research` · `CTF` · `Reverse Engineering`
+
 </td>
 </tr>
 </table>
+
 ---
-🏆 Highlights
+
+## 🏆 Highlights
+
 <div align="center">
-<table>
-<tr>
-<td align="center">
-🥇 DRDO Sampada 2025
-1st Prize  
-IoT Security Research
-</td>
-<td align="center">
-📚 Research
-Published / submitted work in  
-Cybersecurity & IoT Security
-</td>
-<td align="center">
-🏴 CTF
-Hands-on experience with  
-Web, Android, Forensics & Firmware
-</td>
-</tr>
-</table>
+
+| Achievement | Area |
+|:--|:--|
+| 🥇 **1st Prize — DRDO Sampada 2025** | IoT Security Research |
+| 📚 **Cybersecurity / IoT Research Work** | Academic & Applied Security |
+| 🏴 **CTF Experience** | Web · Android · Forensics · Firmware |
+
 </div>
+
 ---
-🎯 What I'm Working On
+
+## 🎯 Current Focus
+
+<div align="center">
+
 ```text
-[██████████████████████░░]  Cybersecurity Research
-[████████████████████░░░░]  IoT & Firmware Security
-[███████████████████░░░░░]  Reverse Engineering
-[██████████████████░░░░░░]  AI/ML for Security
-[████████████████░░░░░░░░]  Developer Tooling
+SOFTWARE
+    ↓
+NETWORKS
+    ↓
+EMBEDDED DEVICES
+    ↓
+FIRMWARE
+    ↓
+AI / AUTOMATION
+    ↓
+SECURE SYSTEMS
 ```
+
+</div>
+
+I'm especially interested in building practical systems that connect **cybersecurity + hardware + AI**.
+
 ---
-🧭 Current Focus
-> **Security + Hardware + AI**
-I am especially interested in creating practical security systems that connect:
-`Software` → `Networks` → `Embedded Devices` → `Firmware` → `AI`
----
-🌐 Connect With Me
+
+## 🌐 Connect
+
 <div align="center">
+
 <a href="https://github.com/DarkDevil-5439">
-  <img src="https://img.shields.io/badge/GitHub-DarkDevil--5439-111827?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-Profile-0D1117?style=for-the-badge&logo=github"/>
 </a>
 <a href="https://t.me/talk_with_hackers">
-  <img src="https://img.shields.io/badge/Telegram-Talk_With_Hackers-111827?style=for-the-badge&logo=telegram&logoColor=26A5E4"/>
+<img src="https://img.shields.io/badge/Telegram-Talk%20With%20Hackers-0D1117?style=for-the-badge&logo=telegram&logoColor=26A5E4"/>
 </a>
+
 </div>
+
 ---
+
 <div align="center">
-⚡ Thanks for visiting my profile
-Exploring. Building. Breaking. Securing.
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5A0,50:00D9FF,100:7C3AED&height=120&section=footer" width="100%"/>
+
+### ⚡ Build. Break. Learn. Secure.
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:00D9FF,100:00F5A0&height=110&section=footer" width="100%"/>
+
 </div>
